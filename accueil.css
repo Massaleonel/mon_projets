@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/IMG_20250424_112616_942.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(197, 175, 175);
+    
+}
+
+.contenaire-logo{
+    padding: 2%;
+    display: flex;
+    text-align: center;
+
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+ .nav-bar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;     
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: rgb(7, 2, 2);
+}
+
+.body-acceuil{
+  background-color: rgb(37, 126, 126);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+.pp {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.contenaire-historique{
+    
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    
+}
